@@ -21,13 +21,13 @@ html
             .flex-clear
               .flex-column
                 .fluid
-                  .badge(style='left: 20px;')
-                    span docs
                   div#raw.overflow(spellcheck='false', contenteditable)
+                  .badge(style='margin-right: 10px;')
+                    span docs
                 .fluid
-                  .badge(style='left: 10px;')
-                    span markdown
                   textarea#export.overflow(spellcheck='false', readonly)
+                  .badge(style='margin-left: 10px;')
+                    span markdown
 
     script(type='text/javascript', src='/static/js/vendor/html2markdown.js')
     script(type='text/javascript', src='/static/js/vendor/markdown_dom_parser.js')
